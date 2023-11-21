@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Injector } from '@angular/core';
+import { AppModule } from './app.module';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'yesus-projects';
+  title:string;
+  constructor(private inject:Injector)
+  {
+    this.title = "yesus-projects";
+    console.log(inject.get(AppModule))
+    console.log(inject.get)
+  }
 }
