@@ -13,9 +13,4 @@ export class AppComponent {
   {
     this.title = "yesus-projects";
   }
-
-  doSomething()
-  {
-
-  }
 }

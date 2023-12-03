@@ -1,0 +1,17 @@
+header
+{
+  display: flex;
+  align-items: center;
+  border: 1px dashed salmon;
+  border-radius: 4px;
+  padding: 2px 0px;
+  justify-content: space-between;
+}
+
+.brand-text{
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  text-shadow: 5px 7px 4px #000000;
+}
